@@ -1,0 +1,17 @@
+.borderbox-container {
+  // border-top: 5px solid;
+  // border-left: 1px solid;
+  // flex-grow: 0;
+  // min-width: 40px;
+  // flex-shrink: 0;
+
+  &__heading,
+  &__text
+  {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 0.6rem;
+  }
+}

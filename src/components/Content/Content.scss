@@ -1,0 +1,28 @@
+.content-container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    width: 80%;
+    margin: 0 auto;
+
+    &__heading {
+      font-size: calc(5px + 2vmin);
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    &__items {
+      display: flex;
+      overflow: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-container__content__items {
+    display: block;
+  }
+}
