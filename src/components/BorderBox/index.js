@@ -34,12 +34,6 @@ const useStyles = createUseStyles({
 
 
 const BorderBox = ({ data, name, colors, padding, boxHeight, boxWidth }) => {
-  // const divStyle = {
-  //   borderColor: colors,
-  //   width: boxSize,
-  //   height: boxHeight,
-  //   paddingTop: padding
-  // }
   const classes = useStyles({ colors, padding, boxHeight, boxWidth })
 
   return (
